@@ -8,3 +8,5 @@ This site was built using the following technologies:
 * jQuery
 * Bootstrap
 * JSON
+
+Check it out at [www.miguelrivero.info](www.miguelrivero.info)
