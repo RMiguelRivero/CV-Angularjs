@@ -1,0 +1,19 @@
+<section class="employment">
+    <h2>{{ 'EMPLOYMENT' | translate }}</h2>
+    <div ng-repeat="emp in data.employment" class="row employment">
+        <div class="col-sm-2">{{emp.date}}</div>
+        <div class="col-sm-10">
+            <div><strong class="title">{{emp.title}}</strong>, {{emp.company}}</div>
+            <div>
+               {{ emp.description }}
+                <ul ng-if="emp.list" >
+                    <li ng-repeat="elem in emp.list">{{elem}}</li>
+                </ul>
+            </div>
+            <div ng-if="emp.keywords" class="keywords">
+                Keywords: <em>{{ emp.keywords.join(', ') }}</em>.
+            </div>
+        </div>
+        <br/>
+    </div>
+</section>

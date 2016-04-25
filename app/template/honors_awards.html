@@ -1,0 +1,8 @@
+<section class="honors-awards">
+	<h2>{{ 'HONORS_AWARDS' | translate }}</h2>
+	<div ng-repeat="hon in data.honors_awards" class="row bot-dis">
+		<div class="col-sm-2">{{hon.year}}</div>
+		<div class="col-sm-10 bold">{{hon.award}}</div>
+		<div class="col-sm-10 col-sm-offset-2" ng-if="hon.description">{{hon.description}}</div>
+	</div>
+</section>

@@ -1,0 +1,29 @@
+<h2 class="text-center">{{data.personal.degree}}<br/>
+    <a href="#/en/"><img src="assets/img/gb.png" height="11" width="16" alt="English" /></a>
+    <a href="#/es/"><img src="assets/img/es.png" height="11" width="16" alt="Español" /></a><br/>
+    <a href="{{data.personal.pdf}}" target="_new"><i class="fa fa-file-pdf-o"></i></a>
+</h2>
+
+<aside class="col-sm-4">
+    <contact></contact>
+    <languages></languages>
+    <programming></programming>
+    <personal-skills></personal-skills>
+    <hobbies></hobbies>
+</aside>
+
+<main class="col-sm-8">
+    <employment></employment>
+    <projects></projects>
+    <education></education>
+    <professional-skills></professional-skills>
+    <personal-skills></personal-skills>
+    <honors-awards></honors-awards>
+    <hobbies></hobbies>
+</main>
+<foot></foot>
+<div class="hidden">
+    <div class="mr-modal-contact" data-title="{{ 'MODAL_TITLE' | translate }}">
+        {{ 'MODAL_BODY' | translate }}
+    </div>
+</div>

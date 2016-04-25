@@ -1,0 +1,9 @@
+<section class="education">
+	<h2>{{ 'EDUCATION' | translate }}</h2>
+	<div ng-repeat="edu in data.education" class="row bot-dis">
+		<div class="col-sm-2">{{edu.period}}</div>
+		<div class="col-sm-8 bold">{{edu.course}}</div>
+		<div class="col-sm-2 hours" ng-if="edu.hours">{{edu.hours}} {{ 'HOURS' | translate }}</div>
+		<div class="col-sm-10 col-sm-offset-2">{{edu.center}}</div>
+	</div>
+</section>

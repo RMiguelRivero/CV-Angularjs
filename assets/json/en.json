@@ -1,0 +1,119 @@
+{
+	"language": "English",
+	"personal": {
+		"name": "Rafael Miguel ",
+		"surname": "Rivero Rodríguez",
+		"degree": "Software Engineer",
+		"nationality": "Spanish",
+		"country": "United Kingdom",
+		"location": "Reading",
+		"address": "",
+		"telephone": "",
+		"email": "rmiguelrivero@gmail.com",
+		"linkedin": "rmiguelrivero",
+		"github": "rmiguelrivero",
+		"skype": "rmiguelrivero",
+		"pdf": "Rivero_CV.pdf"
+	},
+	"languages": [{
+		"language": "Spanish",
+		"level": "Native"
+	}, {
+		"language": "English",
+		"level": "C1"
+	}],
+	"programming": [
+		"JS MVC: Backbone, AngularJS",
+		"HTML5 & CSS3",
+		"Python"
+	],
+	"hobbies": [
+		"Dancing salsa",
+		"Motorbike riding",
+		"Some extra programming"
+	],
+	"education": [{
+		"course": "BSc Business Software Engineering Degree",
+		"period": "2013",
+		"center": "Escuela Técnica Superior de Ingeniería Informática, University of Seville",
+		"hours": ""
+	}, {
+		"course": "An Introduction to Interactive Programming in Python",
+		"period": "2014",
+		"center": "Rice University, USA - MOOC",
+		"hours": "70"
+	}, {
+		"course": "Web App development in HTML5 for Firefox O.S.",
+		"period": "2014",
+		"center": "Universidad Politécnica de Madrid, Spain - MOOC",
+		"hours": "40"
+	}, {
+		"course": "Web Site Design based on Open Source CMS",
+		"period": "2013",
+		"center": "University of Seville",
+		"hours": "40"
+	}, {
+		"course": "Linux Servers Administration",
+		"period": "2012",
+		"center": "University of Seville",
+		"hours": "40"
+	}, {
+		"course": "Technical Graphic Design",
+		"period": "2006",
+		"center": "Ifes",
+		"hours": "664"
+	}],
+	"employment": [{
+		"title": "Front end Developer",
+		"company": " Sign-Up Technologies Ltd - HEG",
+		"date": "Feb-2015 Present",
+		"description": "Working at Sign Up Technologies allowed me to get a better understanding of RESTFul APIs and the differences in email client rendering engines. I improved my debugging skills as well as my UI/UX knowledge. I participated in the whole life-cycle of a new product from competitors analysis, RESTFul API design, wireframing, decision making to coding and bug fixing. For more information please see the projects section.",
+		"list": [],
+		"keywords": ["UX/UI", "Backbone", "jQuery", "Underscore", "Javascript", "HTML5", "Less/CSS", "RESTFul API", "Git", "Jira"]
+	}, {
+		"title": "Full stack developer",
+		"date": "Jan-2013 Jan-2014",
+		"company": "University of Seville's Library",
+		"description": "As a full stack web developer I was in charge of maintaining and improving an existing web app, as well as developing a new one from ground up.",
+		"list": [],
+		"keywords": ["Javascript", "jQuery", "PHP", "HTML5", "CSS", "MySQL", "sqLite", "Bash"]
+	}],
+    "projects": [{
+        "title": "Centralised Control Panel",
+        "date": "Oct-2015 Present",
+        "description": "Following the acquisition by HEG, my team and I were in charge of designing and developing a SPA intended to be used across all the different brands within the group. The result was a highly reusable and themeable application using 'mobile first' design philosophy. The first functionality implemented in the centralised control panel was building the interface to manage different Office 365 subscriptions, using a RESTful API layer on top of Microsoft's one.",
+        "keywords": ["Backbone", "jQuery", "Git", "HTML", "Less/CSS", "Nodejs"]
+    },{
+        "title": "Email editor",
+        "date": "Feb-2015 Oct-2015",
+        "description": "This feature is a cornerstone for the Sign-Up.to platform as an Email Marketing company. It allows customers to create/design responsive email campaigns for all the popular email clients. It is a WYSIWYG editor which allows customers to design the layout, theme styling, adding text and images. Ending up in the preview section where they can see the end result of their email in different device modes.",
+        "keywords": ["Backbone", "jQuery", "Git", "Jira"]
+    }],
+	"pro_skills": {
+		"Languages": ["JavaScript", "Python", "HTML", "CSS", "Java", "PHP", "SQL", "Bash", "C", "C++"],
+		"DBMS": ["MySQL", "sqLite"],
+		"IDE": ["WebStorm", "Visual Studio 2010", "Eclipse", "Aptana"],
+		"OS": [ "OSX", "Linux", "Windows"],
+		"Design": ["Photoshop", "Corel Draw", "Illustrator"],
+		"Others": ["Backbone", "Angular 1 & 2", "Git", "jQuery", "Underscore", "Selenium", "SVN", "Redmine", "Maven", "jUnit", "Mockito", "Sphinx", "Doxygen", "LaTeX"]
+	},
+	"per_skills": [
+		"Proactive",
+		"Perseverant",
+		"Team worker",
+		"Eager to absorb knowledge",
+		"Quick-adapt to new environments",
+		"Able to work independently",
+		"Quick-to-learn",
+		"Fearless of new challenges"
+	],
+	"honors_awards": [{
+		"year": "2013",
+		"award": "Final Degree Project with Honours",
+		"description": "Pointcloud Alignment using Keypoints Correlation: Point clouds are obtained using Microsoft Kinect from different point of views of an object. The point clouds are processed to build a model that fits the original object using Iterative Closest Point algorithm (ICP) and Singular Value Decomposition (SVD). Used tecnologies: C++, Visual Studio 2010, CMake, Point Cloud Library, Doxygen, Latex."
+	}, {
+		"year": "2013",
+		"award": "Extraordinary End of Studies Award",
+		"description": ""
+	}]
+}

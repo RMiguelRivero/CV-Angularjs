@@ -1,0 +1,365 @@
+@darkgray:#333333;
+@gray:#4D4D4D;
+@lightgray:#999999;
+@green: #C2E15F;
+@orange: #FDA333;
+@purple: #D3A4F9;
+@red: #FB4485;
+@blue: #6CE0F1;
+@yellow: #EDD30E;
+@font-size-base: 14px;
+@h1-font-size: 49px;
+@h2-font-size: 30px;
+@h3-font-size: 24px;
+/* Modal */
+@overlayColor: @lightgray;
+@bodyColor: white;
+@headerBarTextColor: white;
+@headerBarBackgroundColor: @orange;
+
+/* Buttons */
+@buttonFontSize: 14px;
+@buttonFontWeight: normal;
+
+@buttonColor: @orange;
+@buttonTextColor: white;
+@buttonBorderColor: darken(@buttonColor, 20%);
+
+@buttonDisabledColor: grey;
+@buttonDisabledTextColor: black;
+
+@buttonHoverTextColor: white;
+@buttonHoverColor: darken(@green, 50%);
+
+.rounded-corners(@radius: 5px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+
+body{
+    color:@darkgray;
+    font-size:  @font-size-base * 1.1;
+    text-align : justify;
+}
+a:not(.button) {
+    color: inherit;
+}
+h1{
+    font-size:  @h1-font-size;
+}
+h2{
+    font-size:  @h2-font-size;
+}
+h3{
+    font-size:  @h3-font-size;
+}
+
+p{
+    color:inherit;
+}
+hr{
+    border: 1px dashed;
+    color:@lightgray;
+}
+
+.button,
+.button:link,
+.button:visited{
+    .rounded-corners;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background-color: @buttonColor;
+    color: @buttonTextColor;
+    border: 1px solid @buttonBorderColor;
+    border-radius: 4px;
+    color: @buttonTextColor;
+    font-size: @buttonFontSize;
+    font-weight: @buttonFontWeight;
+    padding: 0.6em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.no-touch .button:hover:not(.loading):not(.disabled){
+    color: @buttonHoverTextColor;
+    background-color: @buttonHoverColor;
+}
+.button.disabled,
+.button.disabled:hover{
+    color: @buttonDisabledTextColor;
+    background-color: @buttonDisabledColor;
+    cursor: default;
+}
+.button svg {
+    fill: #fff !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+    display:none;
+}
+
+.button.loading,
+.button.loading:hover{
+    color: transparent;
+    cursor: default;
+
+    svg {
+        display: block;
+    }
+}
+
+.hours{
+    color: @lightgray;
+    text-align: right;
+    float: right;
+}
+.negrita{
+    font-weight:bold;
+}
+
+.bot-dis{
+    margin-bottom: 1em;
+}
+.invertido{
+    color: white;
+}
+
+
+aside {
+    text-align: left;
+    
+    h3{
+        font-size: @h2-font-size;
+    }
+
+    .programming{
+        display: none;
+    }
+    .hobbies{
+        display: none;
+    }
+}
+main {
+    h3{
+        font-size: @h2-font-size;
+    }
+
+    .hobbies{
+        display: block;
+        
+    }
+}
+
+footer{
+    font-size:  @font-size-base * 0.9;
+}
+
+.exp-title{
+    margin-bottom: 0.5m;
+}
+.employment{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+/* Modal Window */
+.mr-modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: @overlayColor;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    transform: translateZ(0);
+}
+.mr-modal {
+    position: absolute;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    background-color: @bodyColor;
+    width: 100%;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    button[disabled] {
+        background-color: #ccc;
+
+        &:hover{
+            background-color: #ccc;
+        }
+    }
+    button {
+        border:none;
+    }
+    .mr-modal-footer-button {
+        margin-left: 10px;
+    }
+
+    .button {
+        display: inline-block;
+    }
+    &-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+        background-color: #fff;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border-radius: none;
+        outline: 0;
+    }
+}
+
+.mr-modal-container-header {
+    height: 58px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: @headerBarBackgroundColor;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 9999;
+
+    h3 {
+        color: @headerBarTextColor;
+        margin: 0;
+    }
+
+    .close,
+    .mr-modal-container-close {
+        margin-top: 4px;
+        float: right;
+        line-height: 1;
+        cursor: pointer;
+        svg {
+            fill: @headerBarTextColor;
+        }
+    }
+}
+.mr-modal-container-header-title {
+    margin: 0;
+    line-height: 1.42857143;
+
+}
+.mr-modal-container-body {
+    position: absolute;
+    top: 58px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    margin-bottom: 72px;
+}
+.mr-modal-container-body.noFooter {
+    margin-bottom: 0;
+}
+.mr-modal-container-body-loader {
+    display: none;
+    text-align: center;
+    padding: 1em;
+}
+.mr-modal-container-body-content {
+    padding: 1em;
+    display: block;
+}
+.mr-modal-container-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    z-index: 9999;
+    height: 72px;
+}
+/* End Modal Window */
+
+@media screen and (min-width: 35.5em){
+    .mr-modal {
+        opacity: 1;
+        overflow-x: hidden;
+        overflow-y: auto;
+        display: block;
+        background-color: transparent;
+    }
+    .mr-modal-dialog {
+        width: 560px;
+        position: relative;
+        overflow-y: hidden;
+        margin: 120px auto 60px;
+    }
+    .mr-modal-container {
+        position: relative;
+        width: auto;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        height: auto;
+        border-radius: 6px;
+    }
+    .mr-modal-container-header {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        position: relative;
+    }
+    .mr-header-title h3{
+        float: left;
+    }
+
+    .mr-modal-container-body {
+        position: relative;
+        top: 0;
+        overflow-y: auto;
+        margin-bottom: 0px;
+    }
+    .mr-modal-container-footer {
+        padding: 15px;
+        text-align: right;
+        border-top: 1px solid #e5e5e5;
+        position: relative;
+    }
+
+}
+@media (min-width: 768px) {
+    .exp-title{
+        margin-bottom: 0.5m;
+    }
+
+    aside {
+        text-align: right;
+        
+        h3{
+            font-size: @h3-font-size;
+        }
+        .programming{
+            display: block;
+        }
+        .hobbies{
+            display: block;
+        }
+    }
+    main {
+        .hobbies{
+            display: none;
+        }
+    }
+
+}

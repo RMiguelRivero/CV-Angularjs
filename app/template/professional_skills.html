@@ -1,0 +1,27 @@
+<section class="professional-skills">
+    <h2>{{ 'PRO_SKILLS' | translate }}</h2>
+    <div class="row bot-dis">
+        <div class="col-sm-2">{{ 'LANGUAGES' | translate }}:</div>
+        <div class="col-sm-10 bold">{{data.pro_skills.Languages.join(', ')}}.</div>
+    </div>
+    <div class="row bot-dis">
+        <div class="col-sm-2">{{ 'DBMS' | translate }}:</div>
+        <div class="col-sm-10 bold"> {{data.pro_skills.DBMS.join(', ')}}.</div>
+    </div>
+    <div class="row bot-dis">
+        <div class="col-sm-2">{{ 'IDE' | translate }}:</div>
+        <div class="col-sm-10 bold"> {{data.pro_skills.IDE.join(', ')}}.</div>
+    </div>
+    <div class="row bot-dis">
+        <div class="col-sm-2">{{ 'OS' | translate }}:</div>
+        <div class="col-sm-10 bold"> {{data.pro_skills.OS.join(', ')}}.</div>
+    </div>
+    <div class="row bot-dis">
+        <div class="col-sm-2">{{ 'DESIGN' | translate }}:</div>
+        <div class="col-sm-10 bold"> {{data.pro_skills.Design.join(', ')}}.</div>
+    </div>
+    <div class="row bot-dis">
+        <div class="col-sm-2">{{ 'OTHERS' | translate }}:</div>
+        <div class="col-sm-10 bold"> {{data.pro_skills.Others.join(', ')}}. </div>
+    </div>
+</section>

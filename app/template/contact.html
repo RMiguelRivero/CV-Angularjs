@@ -1,0 +1,25 @@
+<section class="contact">
+	<h3>{{ 'CONTACT' | translate }}</h3>
+	<!-- {{data.personal.address}}<br/> -->
+	<div>
+		<div class="contact-icon"><i class="fa fa-map-marker"></i></div>
+		{{data.personal.location}}, {{data.personal.country}}
+	</div><br/>
+	<!-- <span class="bold"><a href="tel:{{data.personal.telephone}}">{{data.personal.telephone}}</a>    <i class="fa fa-phone"></i></span><br/> -->
+	<div>
+		<div class="contact-icon"><span class="bold">@</span></div>
+		<a href="mailto:{{data.personal.email}}">{{data.personal.email}}</a>
+	</div>
+	<div>
+		<div class="contact-icon"><i class="fa fa-skype"></i></div>
+		<a href="skype:{{data.personal.skype}}?chat">{{data.personal.skype}}</a>
+	</div>
+	<div>
+		<div class="contact-icon"><i class="fa fa-linkedin"></i></div>
+		<a href="http://linkedin.com/in/{{data.personal.linkedin}}">{{data.personal.linkedin}}</a>
+	</div>
+	<div>
+		<div class="contact-icon"><i class="fa fa-github"></i></div>
+		<a href="https://github.com/{{data.personal.github}}">{{data.personal.github}}</a>
+	</div>
+</section>

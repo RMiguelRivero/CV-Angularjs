@@ -1,0 +1,16 @@
+<section class="projects">
+    <h2>{{'PROJECTS' | translate }}</h2>
+    <div ng-repeat="project in data.projects" class="row project">
+        <div class="col-sm-2">{{project.date}}</div>
+        <div class="col-sm-10">
+            <h4><strong>{{ project.title }}</strong></h4>
+            <div>
+                {{ project.description }}                
+            </div>
+            <div ng-if="project.keywords" class="keywords">
+                Keywords: <em>{{ project.keywords.join(', ') }}</em>.
+            </div>
+        </div>
+        <br/>
+    </div>
+</section>

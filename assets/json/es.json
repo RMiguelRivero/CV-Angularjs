@@ -1,0 +1,139 @@
+{
+"language": "Español",
+"personal":{
+	"name": "Rafael Miguel ",
+	"surname": "Rivero Rodríguez",
+	"degree": "Ingeniero Técnico en Informática de Gestión",
+	"nationality": "Española",
+	"country": "Reino Unido",
+	"location": "Reading",
+	"address": "",
+	"telephone": "",
+	"email": "rmiguelrivero@gmail.com",
+	"linkedin": "rmiguelrivero",
+	"github": "rmiguelrivero",
+	"skype": "rmiguelrivero",
+	"pdf": "Rivero_CV.pdf"
+},
+"languages":[
+	{
+		"language": "Español",
+		"level": "Nativo"
+	},
+	{
+		"language": "Ingles",
+		"level": "C1"
+	}
+],
+"programming":[
+	"JS MVC: Backbone, AngularJS",
+	"HTML5 & CSS3",
+	"Python"
+],
+"hobbies": [
+	"Bailar salsa",
+	"Escapadas en moto",
+	"Algo más de programación"
+],
+"education":[
+	{
+		"course": "Ingeniería Técnica en Informática de Gestión",
+		"period": "2013",
+		"center": "Escuela Técnica Superior de Ingeniería Informática. Universidad de Sevilla.",
+		"hours": ""
+	},
+	{
+		"course": "Una introducción a la programación interactiva en Python",
+		"period": "2014",
+		"center": "Rice University, EE.UU. - MOOC",
+		"hours": "70"
+	},
+	{
+		"course": "Desarrollo de Aplicaciones en HTML5 y para Móviles Firefox O.S.",
+		"period": "2014",
+		"center": "Universidad Politécnica de Madrid, Spain - MOOC",
+		"hours": "40"
+	},
+	{
+		"course": "Curso de Diseño de Sitios Web Basados en CMS open source",
+		"period": "2013",
+		"center": "Universidad de Sevilla",
+		"hours": "40"
+	},
+	{
+		"course": "Administración de Servidores GNU/Linux",
+		"period": "2012",
+		"center": "Universidad de Sevilla",
+		"hours": "40"
+	},
+	{
+		"course": "Técnico auxiliar de Diseñador Gráfico",
+		"period": "2006",
+		"center": "Ifes",
+		"hours": "664"
+	}
+],
+"employment":[{
+		"title": "Front end Developer",
+		"company": " Sign-Up Technologies Ltd - HEG",
+		"date": "Feb-2015 Presente",
+		"description": "Mi paso por signup.to me ha permitido llegar a un mejor entendimiento de como funciona una API Rest asi como apreciar con mayor detalle las diferentes implementaciones del motor de renderizado tanto de los navegadores como de clientes de correo. Además he mejorado mis habilidades para depurar los fallos y acentuar mi ojo para la mejora de UI/UX. He participado en todo el ciclo de vida de un producto software incluyendo tareas como el analisis y diseño del producto, estudio de la competencia, maquetacion, diseño de la interfaz de una API Rest, toma de decisiones y solucion de errores entre otras.",
+		"list": [],
+		"keywords": ["UX/UI", "Backbone", "jQuery", "Underscore", "Javascript", "HTML5", "Less/CSS", "RESTFul API", "Git", "Jira"]
+	},
+	{
+	"title": "Full Stack Developer",
+	"date": "Ene-2013  Ene-2014",
+	"company": "Biblioteca de la Universidad de Sevilla",
+	"description": "Funciones principales:",
+	"list":	[
+		"Desarrollo y mantenimiento de aplicaciones web con JavaScript, jQuery, HTML, CSS, PHP.",
+		"Administración de base de datos: MySQL, SQLite.",
+		"Bash scripting.",
+		"O.S. Ubuntu 12.04"
+		],
+	"keywords": ["Javascript", "jQuery", "PHP", "HTML", "CSS", "MySQL", "sqLite", "Bash"]
+	}
+],
+"projects": [{
+    "title": "Panel de control centralizado",
+    "date": "Oct-2015 Presente",
+    "description": "Tras la adquisición por parte de HEG, mi equipo de front end ha sido el encargado de diseñar y desarrollar una SPA que es utilizada por diferentes empresas del grupo HEG evitando así duplicidad de funcionalidades. Por eso, el proyecto es completamente personalizable y reutilizable utilizando la filosofía de diseño 'mobile first'. La primera funcionalidad implementada en el CCP fue construir la interfaz que sirviera para la reventa de paquetes Office 365 y la gestión de usuarios y dominios acorde a los paquetes adquiridos, utilizando una API RESTful entremedio con la API de Microsoft.",
+    "keywords": ["Backbone", "jQuery", "Git", "HTML", "Less/CSS", "Nodejs"]
+},{
+    "title": "Editor de Emails",
+    "date": "Feb-2015 Oct-2015",
+    "description": "Para Signupto, como empresa dedicada el email marketing, esta aplicacion es una de las piezas fundamentales. Esta aplicación permite a sus usuarios crear campañas de correo publicitario totalmente responsive para los principales clientes de correo con opciones como etiquetas personalizables, o inclusión de google analitics. Es un editor WYSIWYG basado en el la maquetación y estilo sobre el que añadir los textos e imágenes. Ofrece una previsualización del correo en diferentes formatos como tablets o móviles.",
+    "keywords": ["Backbone", "jQuery", "Git", "Jira"]
+}],
+"pro_skills":{
+	"Languages": ["JavaScript", "Python", "HTML", "CSS", "Java", "PHP", "SQL", "Bash", "C", "C++"],
+	"DBMS": ["MySQL", "sqLite"],
+	"IDE": ["WebStorm", "Visual Studio 2010", "Eclipse", "Aptana"],
+	"OS": [ "OSX", "Linux", "Windows"],
+	"Design": ["Photoshop", "Corel Draw", "Illustrator"],
+	"Others": ["Backbone", "Angular 1 & 2", "Git", "jQuery", "Underscore", "Selenium", "SVN", "Redmine", "Maven", "jUnit", "Mockito", "Sphinx", "Doxygen", "LaTeX"]
+},
+"per_skills":[
+	"Sociable",
+	"Perseverante",
+	"Participativo",
+	"Trabajo en equipo",
+	"Involucrado",
+	"Ganas de aprender",
+	"Capacidad de adaptación",
+	"De rápido aprendizaje",
+	"Autónomo"
+],
+"honors_awards":[
+	{
+		"year":"2013",
+		"award":"Proyecto Fin de Carrera: Matrícula de Honor",
+		"description":"Alineación de nubes de puntos mediante la correlación de puntos claves: Mediante Microsoft Kinect se obtienen nubes de puntos de un objeto desde diferentes puntos de vistas, que posteriormente serán tratadas con el algoritmo Iterative Closest Point (ICP) y Singular Value Decomposition (SVD) para obtener un modelo virtual del objeto. Tecnologías usadas: C++, Visual Studio 2010, CMake, Point Cloud Library, Doxygen, Latex."
+	},{
+		"year":"2013",
+		"award":"Premio Extraordinario Fin de Carrera",
+		"description":""
+	}
+]
+}
